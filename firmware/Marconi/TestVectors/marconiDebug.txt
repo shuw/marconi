@@ -1,0 +1,2248 @@
+The Marconi Project
+Prototype 0.7 Beta - Camillo Testboard
+University of Waterloo - FYDP 2005
+A. Cheung G. Liu
+S. Janhunen S. Wu
+
+
+
+Gate State = 0 - Transmit Gate A @440
+Gate State = 0 - Transmit Gate B @440
+Gate State = 4 - Transmit Gate A @440
+Gate State = 1 - Transmit Gate A @941
+ DataCheck Words Rx: 1, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 2, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 3, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 4, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 5, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 6, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 7, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 8, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 9, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 10, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 11, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 12, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 13, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 14, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 15, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 16, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 17, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 18, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 19, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 20, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 21, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 22, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 23, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 24, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 25, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 26, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 27, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 28, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 29, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 30, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 31, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 32, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 33, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 34, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 35, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 36, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 37, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 38, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 39, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 40, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 41, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 42, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 43, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 44, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 45, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 46, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 47, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 48, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 49, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 50, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 51, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 52, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 53, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 54, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 55, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 56, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 57, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 58, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 59, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 60, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 61, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 62, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 63, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 64, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 65, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 66, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 67, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 68, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 69, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 70, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 71, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 72, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 73, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 74, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 75, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 76, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 77, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 78, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 79, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 80, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 81, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 82, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 83, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 84, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 85, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 86, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 87, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 88, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 89, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 90, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 91, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 92, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 93, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 94, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 95, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 96, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 97, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 98, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 99, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 100, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 101, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 102, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 103, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 104, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 105, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 106, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 107, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 108, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 109, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 110, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 111, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 112, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 113, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 114, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 115, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 116, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 117, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 118, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 119, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 120, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 121, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 122, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 123, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 124, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 125, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 126, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 127, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 128, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 129, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 130, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 131, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 132, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 133, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 134, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 135, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 136, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 137, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 138, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 139, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 140, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 141, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 142, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 143, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 144, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 145, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 146, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 147, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 148, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 149, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 150, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 151, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 152, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 153, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 154, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 155, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 156, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 157, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 158, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 159, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 160, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 161, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 162, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 163, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 164, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 165, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 166, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 167, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 168, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 169, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 170, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 171, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 172, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 173, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 174, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 175, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 176, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 177, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 178, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 179, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 180, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 181, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 182, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 183, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 184, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 185, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 186, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 187, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 188, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 189, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 190, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 191, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 192, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 193, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 194, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 195, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 196, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 197, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 198, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 199, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 200, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 201, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 202, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 203, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 204, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 205, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 206, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 207, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 208, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 209, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 210, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 211, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 212, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 213, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 214, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 215, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 216, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 217, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 218, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 219, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 220, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 221, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 222, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 223, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 224, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 225, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 226, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 227, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 228, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 229, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 230, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 231, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 232, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 233, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 234, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 235, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 236, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 237, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 238, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 239, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 240, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 241, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 242, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 243, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 244, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 245, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 246, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 247, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 248, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 249, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 250, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 251, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 252, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 253, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 254, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 255, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 256, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 257, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 258, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 259, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 260, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 261, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 262, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 263, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 264, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 265, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 266, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 267, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 268, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 269, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 270, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 271, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 272, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 273, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 274, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 275, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 276, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 277, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 278, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 279, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 280, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 281, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 282, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 283, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 284, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 285, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 286, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 287, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 288, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 289, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 290, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 291, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 292, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 293, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 294, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 295, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 296, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 297, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 298, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 299, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 300, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 301, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 302, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 303, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 304, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 305, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 306, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 307, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 308, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 309, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 310, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 311, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 312, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 313, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 314, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 315, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 316, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 317, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 318, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 319, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 320, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 321, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 322, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 323, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 324, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 325, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 326, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 327, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 328, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 329, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 330, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 331, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 332, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 333, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 334, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 335, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 336, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 337, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 338, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 339, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 340, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 341, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 342, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 343, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 344, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 345, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 346, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 347, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 348, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 349, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 350, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 351, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 352, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 353, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 354, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 355, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 356, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 357, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 358, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 359, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 360, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 361, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 362, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 363, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 364, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 365, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 366, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 367, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 368, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 369, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 370, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 371, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 372, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 373, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 374, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 375, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 376, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 377, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 378, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 379, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 380, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 381, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 382, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 383, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 384, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 385, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 386, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 387, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 388, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 389, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 390, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 391, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 392, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 393, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 394, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 395, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 396, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 397, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 398, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 399, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 400, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 401, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 402, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 403, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 404, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 405, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 406, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 407, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 408, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 409, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 410, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 411, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 412, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 413, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 414, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 415, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 416, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 417, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 418, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 419, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 420, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 421, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 422, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 423, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 424, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 425, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 426, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 427, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 428, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 429, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 430, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 431, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 432, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 433, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 434, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 435, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 436, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 437, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 438, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 439, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 440, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 441, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 442, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 443, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 444, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 445, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 446, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 447, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 448, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 449, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 450, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 451, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 452, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 453, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 454, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 455, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 456, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 457, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 458, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 459, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 460, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 461, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 462, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 463, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 464, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 465, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 466, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 467, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 468, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 469, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 470, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 471, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 472, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 473, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 474, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 475, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 476, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 477, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 478, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 479, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 480, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 481, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 482, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 483, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 484, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 485, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 486, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 487, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 488, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 489, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 490, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 491, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 492, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 493, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 494, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 495, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 496, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 497, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 498, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 499, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 500, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 501, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 502, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 503, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 504, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 505, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 506, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 507, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 508, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 509, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 510, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 511, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 512, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 513, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 514, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 515, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 516, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 517, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 518, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 519, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 520, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 521, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 522, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 523, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 524, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 525, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 526, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 527, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 528, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 529, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 530, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 531, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 532, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 533, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 534, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 535, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 536, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 537, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 538, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 539, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 540, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 541, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 542, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 543, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 544, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 545, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 546, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 547, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 548, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 549, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 550, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 551, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 552, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 553, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 554, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 555, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 556, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 557, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 558, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 559, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 560, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 561, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 562, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 563, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 564, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 565, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 566, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 567, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 568, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 569, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 570, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 571, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 572, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 573, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 574, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 575, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 576, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 577, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 578, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 579, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 580, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 581, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 582, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 583, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 584, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 585, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 586, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 587, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 588, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 589, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 590, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 591, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 592, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 593, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 594, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 595, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 596, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 597, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 598, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 599, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 600, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 601, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 602, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 603, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 604, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 605, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 606, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 607, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 608, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 609, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 610, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 611, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 612, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 613, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 614, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 615, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 616, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 617, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 618, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 619, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 620, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 621, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 622, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 623, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 624, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 625, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 626, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 627, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 628, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 629, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 630, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 631, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 632, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 633, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 634, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 635, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 636, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 637, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 638, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 639, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 640, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 641, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 642, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 643, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 644, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 645, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 646, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 647, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 648, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 649, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 650, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 651, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 652, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 653, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 654, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 655, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 656, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 657, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 658, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 659, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 660, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 661, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 662, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 663, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 664, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 665, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 666, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 667, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 668, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 669, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 670, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 671, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 672, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 673, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 674, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 675, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 676, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 677, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 678, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 679, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 680, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 681, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 682, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 683, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 684, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 685, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 686, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 687, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 688, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 689, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 690, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 691, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 692, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 693, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 694, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 695, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 696, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 697, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 698, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 699, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 700, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 701, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 702, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 703, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 704, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 705, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 706, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 707, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 708, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 709, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 710, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 711, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 712, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 713, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 714, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 715, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 716, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 717, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 718, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 719, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 720, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 721, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 722, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 723, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 724, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 725, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 726, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 727, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 728, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 729, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 730, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 731, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 732, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 733, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 734, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 735, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 736, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 737, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 738, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 739, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 740, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 741, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 742, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 743, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 744, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 745, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 746, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 747, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 748, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 749, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 750, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 751, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 752, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 753, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 754, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 755, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 756, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 757, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 758, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 759, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 760, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 761, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 762, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 763, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 764, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 765, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 766, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 767, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 768, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 769, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 770, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 771, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 772, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 773, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 774, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 775, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 776, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 777, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 778, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 779, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 780, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 781, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 782, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 783, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 784, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 785, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 786, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 787, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 788, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 789, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 790, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 791, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 792, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 793, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 794, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 795, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 796, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 797, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 798, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 799, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 800, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 801, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 802, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 803, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 804, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 805, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 806, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 807, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 808, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 809, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 810, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 811, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 812, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 813, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 814, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 815, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 816, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 817, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 818, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 819, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 820, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 821, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 822, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 823, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 824, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 825, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 826, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 827, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 828, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 829, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 830, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 831, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 832, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 833, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 834, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 835, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 836, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 837, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 838, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 839, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 840, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 841, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 842, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 843, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 844, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 845, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 846, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 847, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 848, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 849, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 850, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 851, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 852, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 853, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 854, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 855, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 856, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 857, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 858, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 859, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 860, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 861, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 862, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 863, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 864, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 865, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 866, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 867, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 868, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 869, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 870, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 871, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 872, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 873, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 874, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 875, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 876, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 877, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 878, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 879, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 880, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 881, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 882, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 883, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 884, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 885, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 886, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 887, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 888, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 889, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 890, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 891, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 892, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 893, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 894, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 895, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 896, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 897, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 898, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 899, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 900, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 901, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 902, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 903, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 904, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 905, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 906, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 907, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 908, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 909, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 910, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 911, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 912, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 913, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 914, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 915, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 916, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 917, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 918, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 919, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 920, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 921, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 922, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 923, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 924, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 925, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 926, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 927, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 928, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 929, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 930, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 931, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 932, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 933, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 934, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 935, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 936, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 937, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 938, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 939, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 940, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 941, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 942, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 943, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 944, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 945, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 946, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 947, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 948, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 949, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 950, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 951, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 952, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 953, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 954, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 955, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 956, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 957, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 958, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 959, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 960, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 961, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 962, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 963, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 964, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 965, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 966, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 967, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 968, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 969, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 970, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 971, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 972, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 973, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 974, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 975, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 976, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 977, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 978, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 979, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 980, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 981, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 982, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 983, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 984, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 985, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 986, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 987, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 988, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 989, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 990, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 991, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 992, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 993, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 994, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 995, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 996, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 997, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 998, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 999, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 1000, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 1001, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 1002, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 1003, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 1004, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 1005, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 1006, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 1007, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 1008, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 1009, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 1010, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 1011, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 1012, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 1013, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 1014, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 1015, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 1016, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 1017, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 1018, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 1019, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 1020, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 1021, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 1022, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 1023, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 1024, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 1025, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 1026, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 1027, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 1028, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 1029, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 1030, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 1031, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 1032, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 1033, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 1034, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 1035, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 1036, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 1037, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 1038, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 1039, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 1040, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 1041, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 1042, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 1043, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 1044, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 1045, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 1046, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 1047, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 1048, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 1049, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 1050, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 1051, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 1052, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 1053, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 1054, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 1055, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 1056, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 1057, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 1058, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 1059, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 1060, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 1061, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 1062, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 1063, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 1064, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 1065, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 1066, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 1067, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 1068, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 1069, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 1070, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 1071, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 1072, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 1073, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 1074, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 1075, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 1076, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 1077, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 1078, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 1079, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 1080, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 1081, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 1082, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 1083, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 1084, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 1085, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 1086, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 1087, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 1088, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 1089, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 1090, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 1091, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 1092, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 1093, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 1094, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 1095, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 1096, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 1097, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 1098, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 1099, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 1100, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 1101, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 1102, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 1103, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 1104, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 1105, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 1106, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 1107, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 1108, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 1109, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 1110, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 1111, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 1112, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 1113, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 1114, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 1115, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 1116, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 1117, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 1118, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 1119, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 1120, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 1121, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 1122, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 1123, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 1124, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 1125, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 1126, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 1127, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 1128, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 1129, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 1130, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 1131, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 1132, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 1133, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 1134, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 1135, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 1136, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 1137, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 1138, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 1139, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 1140, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 1141, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 1142, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 1143, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 1144, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 1145, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 1146, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 1147, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 1148, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 1149, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 1150, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 1151, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 1152, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 1153, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 1154, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 1155, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 1156, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 1157, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 1158, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 1159, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 1160, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 1161, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 1162, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 1163, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 1164, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 1165, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 1166, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 1167, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 1168, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 1169, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 1170, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 1171, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 1172, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 1173, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 1174, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 1175, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 1176, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 1177, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 1178, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 1179, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 1180, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 1181, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 1182, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 1183, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 1184, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 1185, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 1186, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 1187, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 1188, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 1189, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 1190, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 1191, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 1192, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 1193, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 1194, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 1195, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 1196, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 1197, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 1198, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 1199, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 1200, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 1201, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 1202, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 1203, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 1204, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 1205, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 1206, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 1207, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 1208, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 1209, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 1210, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 1211, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 1212, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 1213, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 1214, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 1215, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 1216, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 1217, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 1218, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 1219, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 1220, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 1221, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 1222, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 1223, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 1224, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 1225, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 1226, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 1227, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 1228, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 1229, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 1230, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 1231, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 1232, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 1233, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 1234, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 1235, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 1236, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 1237, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 1238, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 1239, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 1240, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 1241, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 1242, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 1243, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 1244, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 1245, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 1246, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 1247, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 1248, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 1249, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 1250, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 1251, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 1252, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 1253, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 1254, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 1255, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 1256, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 1257, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 1258, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 1259, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 1260, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 1261, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 1262, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 1263, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 1264, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 1265, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 1266, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 1267, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 1268, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 1269, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 1270, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 1271, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 1272, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 1273, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 1274, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 1275, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 1276, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 1277, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 1278, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 1279, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 1280, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 1281, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 1282, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 1283, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 1284, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 1285, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 1286, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 1287, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 1288, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 1289, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 1290, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 1291, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 1292, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 1293, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 1294, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 1295, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 1296, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 1297, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 1298, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 1299, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 1300, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 1301, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 1302, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 1303, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 1304, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 1305, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 1306, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 1307, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 1308, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 1309, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 1310, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 1311, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 1312, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 1313, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 1314, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 1315, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 1316, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 1317, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 1318, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 1319, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 1320, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 1321, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 1322, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 1323, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 1324, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 1325, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 1326, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 1327, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 1328, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 1329, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 1330, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 1331, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 1332, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 1333, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 1334, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 1335, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 1336, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 1337, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 1338, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 1339, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 1340, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 1341, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 1342, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 1343, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 1344, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 1345, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 1346, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 1347, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 1348, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 1349, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 1350, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 1351, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 1352, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 1353, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 1354, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 1355, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 1356, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 1357, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 1358, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 1359, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 1360, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 1361, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 1362, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 1363, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 1364, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 1365, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 1366, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 1367, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 1368, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 1369, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 1370, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 1371, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 1372, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 1373, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 1374, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 1375, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 1376, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 1377, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 1378, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 1379, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 1380, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 1381, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 1382, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 1383, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 1384, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 1385, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 1386, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 1387, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 1388, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 1389, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 1390, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 1391, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 1392, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 1393, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 1394, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 1395, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 1396, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 1397, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 1398, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 1399, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 1400, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 1401, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 1402, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 1403, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 1404, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 1405, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 1406, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 1407, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 1408, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 1409, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 1410, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 1411, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 1412, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 1413, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 1414, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 1415, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 1416, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 1417, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 1418, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 1419, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 1420, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 1421, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 1422, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 1423, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 1424, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 1425, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 1426, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 1427, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 1428, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 1429, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 1430, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 1431, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 1432, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 1433, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 1434, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 1435, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 1436, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 1437, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 1438, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 1439, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 1440, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 1441, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 1442, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 1443, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 1444, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 1445, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 1446, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 1447, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 1448, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 1449, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 1450, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 1451, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 1452, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 1453, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 1454, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 1455, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 1456, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 1457, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 1458, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 1459, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 1460, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 1461, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 1462, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 1463, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 1464, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 1465, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 1466, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 1467, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 1468, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 1469, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 1470, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 1471, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 1472, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 1473, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 1474, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 1475, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 1476, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 1477, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 1478, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 1479, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 1480, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 1481, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 1482, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 1483, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 1484, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 1485, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 1486, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 1487, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 1488, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 1489, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 1490, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 1491, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 1492, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 1493, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 1494, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 1495, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 1496, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 1497, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 1498, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 1499, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 1500, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 1501, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 1502, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 1503, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 1504, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 1505, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 1506, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 1507, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 1508, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 1509, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 1510, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 1511, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 1512, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 1513, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 1514, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 1515, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 1516, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 1517, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 1518, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 1519, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 1520, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 1521, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 1522, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 1523, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 1524, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 1525, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 1526, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 1527, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 1528, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 1529, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 1530, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 1531, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 1532, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 1533, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 1534, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 1535, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 1536, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 1537, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 1538, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 1539, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 1540, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 1541, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 1542, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 1543, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 1544, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 1545, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 1546, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 1547, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 1548, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 1549, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 1550, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 1551, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 1552, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 1553, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 1554, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 1555, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 1556, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 1557, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 1558, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 1559, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 1560, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 1561, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 1562, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 1563, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 1564, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 1565, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 1566, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 1567, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 1568, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 1569, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 1570, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 1571, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 1572, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 1573, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 1574, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 1575, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 1576, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 1577, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 1578, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 1579, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 1580, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 1581, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 1582, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 1583, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 1584, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 1585, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 1586, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 1587, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 1588, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 1589, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 1590, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 1591, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 1592, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 1593, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 1594, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 1595, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 1596, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 1597, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 1598, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 1599, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 1600, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 1601, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 1602, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 1603, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 1604, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 1605, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 1606, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 1607, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 1608, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 1609, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 1610, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 1611, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 1612, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 1613, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 1614, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 1615, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 1616, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 1617, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 1618, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 1619, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 1620, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 1621, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 1622, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 1623, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 1624, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 1625, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 1626, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 1627, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 1628, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 1629, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 1630, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 1631, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 1632, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 1633, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 1634, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 1635, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 1636, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 1637, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 1638, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 1639, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 1640, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 1641, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 1642, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 1643, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 1644, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 1645, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 1646, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 1647, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 1648, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 1649, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 1650, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 1651, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 1652, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 1653, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 1654, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 1655, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 1656, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 1657, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 1658, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 1659, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 1660, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 1661, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 1662, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 1663, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 1664, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 1665, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 1666, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 1667, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 1668, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 1669, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 1670, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 1671, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 1672, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 1673, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 1674, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 1675, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 1676, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 1677, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 1678, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 1679, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 1680, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 1681, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 1682, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 1683, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 1684, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 1685, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 1686, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 1687, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 1688, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 1689, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 1690, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 1691, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 1692, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 1693, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 1694, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 1695, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 1696, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 1697, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 1698, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 1699, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 1700, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 1701, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 1702, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 1703, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 1704, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 1705, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 1706, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 1707, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 1708, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 1709, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 1710, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 1711, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 1712, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 1713, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 1714, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 1715, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 1716, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 1717, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 1718, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 1719, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 1720, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 1721, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 1722, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 1723, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 1724, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 1725, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 1726, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 1727, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 1728, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 1729, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 1730, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 1731, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 1732, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 1733, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 1734, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 1735, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 1736, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 1737, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 1738, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 1739, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 1740, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 1741, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 1742, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 1743, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 1744, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 1745, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 1746, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 1747, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 1748, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 1749, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 1750, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 1751, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 1752, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 1753, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 1754, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 1755, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 1756, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 1757, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 1758, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 1759, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 1760, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 1761, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 1762, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 1763, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 1764, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 1765, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 1766, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 1767, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 1768, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 1769, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 1770, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 1771, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 1772, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 1773, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 1774, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 1775, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 1776, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 1777, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 1778, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 1779, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 1780, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 1781, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 1782, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 1783, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 1784, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 1785, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 1786, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 1787, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 1788, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 1789, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 1790, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 1791, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 1792, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 1793, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 1794, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 1795, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 1796, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 1797, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 1798, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 1799, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 1800, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 1801, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 1802, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 1803, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 1804, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 1805, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 1806, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 1807, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 1808, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 1809, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 1810, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 1811, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 1812, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 1813, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 1814, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 1815, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 1816, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 1817, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 1818, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 1819, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 1820, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 1821, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 1822, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 1823, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 1824, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 1825, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 1826, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 1827, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 1828, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 1829, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 1830, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 1831, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 1832, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 1833, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 1834, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 1835, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 1836, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 1837, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 1838, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 1839, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 1840, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 1841, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 1842, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 1843, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 1844, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 1845, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 1846, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 1847, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 1848, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 1849, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 1850, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 1851, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 1852, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 1853, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 1854, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 1855, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 1856, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 1857, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 1858, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 1859, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 1860, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 1861, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 1862, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 1863, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 1864, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 1865, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 1866, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 1867, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 1868, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 1869, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 1870, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 1871, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 1872, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 1873, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 1874, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 1875, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 1876, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 1877, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 1878, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 1879, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 1880, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 1881, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 1882, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 1883, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 1884, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 1885, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 1886, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 1887, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 1888, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 1889, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 1890, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 1891, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 1892, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 1893, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 1894, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 1895, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 1896, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 1897, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 1898, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 1899, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 1900, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 1901, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 1902, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 1903, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 1904, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 1905, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 1906, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 1907, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 1908, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 1909, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 1910, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 1911, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 1912, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 1913, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 1914, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 1915, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 1916, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 1917, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 1918, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 1919, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 1920, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 1921, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 1922, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 1923, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 1924, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 1925, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 1926, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 1927, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 1928, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 1929, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 1930, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 1931, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 1932, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 1933, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 1934, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 1935, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 1936, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 1937, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 1938, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 1939, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 1940, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 1941, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 1942, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 1943, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 1944, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 1945, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 1946, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 1947, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 1948, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 1949, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 1950, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 1951, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 1952, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 1953, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 1954, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 1955, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 1956, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 1957, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 1958, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 1959, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 1960, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 1961, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 1962, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 1963, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 1964, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 1965, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 1966, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 1967, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 1968, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 1969, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 1970, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 1971, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 1972, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 1973, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 1974, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 1975, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 1976, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 1977, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 1978, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 1979, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 1980, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 1981, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 1982, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 1983, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 1984, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 1985, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 1986, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 1987, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 1988, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 1989, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 1990, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 1991, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 1992, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 1993, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 1994, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 1995, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 1996, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 1997, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 1998, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 1999, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 2000, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 2001, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 2002, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 2003, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 2004, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 2005, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 2006, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 2007, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 2008, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 2009, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 2010, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 2011, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 2012, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 2013, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 2014, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 2015, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 2016, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 2017, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 2018, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 2019, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 2020, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 2021, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 2022, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 2023, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 2024, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 2025, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 2026, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 2027, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 2028, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 2029, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 2030, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 2031, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 2032, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 2033, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 2034, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 2035, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 2036, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 2037, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 2038, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 2039, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 2040, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 2041, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 2042, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 2043, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 2044, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 2045, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 2046, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 2047, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 2048, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 2049, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 2050, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 2051, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 2052, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 2053, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 2054, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 2055, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 2056, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 2057, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 2058, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 2059, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 2060, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 2061, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 2062, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 2063, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 2064, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 2065, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 2066, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 2067, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 2068, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 2069, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 2070, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 2071, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 2072, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 2073, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 2074, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 2075, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 2076, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 2077, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 2078, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 2079, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 2080, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 2081, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 2082, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 2083, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 2084, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 2085, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 2086, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 2087, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 2088, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 2089, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 2090, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 2091, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 2092, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 2093, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 2094, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 2095, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 2096, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 2097, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 2098, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 2099, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 2100, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 2101, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 2102, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 2103, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 2104, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 2105, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 2106, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 2107, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 2108, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 2109, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 2110, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 2111, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 2112, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 2113, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 2114, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 2115, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 2116, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 2117, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 2118, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 2119, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 2120, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 2121, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 2122, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 2123, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 2124, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 2125, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 2126, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 2127, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 2128, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 2129, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 2130, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 2131, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 2132, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 2133, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 2134, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 2135, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 2136, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 2137, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 2138, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 2139, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 2140, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 2141, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 2142, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 2143, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 2144, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 2145, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 2146, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 2147, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 2148, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 2149, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 2150, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 2151, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 2152, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 2153, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 2154, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 2155, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 2156, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 2157, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 2158, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 2159, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 2160, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 2161, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 2162, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 2163, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 2164, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 2165, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 2166, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 2167, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 2168, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 2169, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 2170, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 2171, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 2172, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 2173, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 2174, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 2175, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 2176, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 2177, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 2178, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 2179, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 2180, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 2181, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 2182, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 2183, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 2184, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 2185, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 2186, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 2187, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 2188, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 2189, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 2190, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 2191, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 2192, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 2193, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 2194, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 2195, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 2196, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 2197, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 2198, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 2199, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 2200, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 2201, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 2202, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 2203, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 2204, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 2205, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 2206, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 2207, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 2208, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 2209, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 2210, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 2211, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 2212, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 2213, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 2214, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 2215, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 2216, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 2217, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 2218, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 2219, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 2220, Bit Err: 0 - 0x5857
+ DataCheck Words Rx: 2221, Bit Err: 0 - 0x5A59
+ DataCheck Words Rx: 2222, Bit Err: 0 - 0x5C5B
+ DataCheck Words Rx: 2223, Bit Err: 0 - 0x5E5D
+ DataCheck Words Rx: 2224, Bit Err: 0 - 0x605F
+ DataCheck Words Rx: 2225, Bit Err: 0 - 0x4241
+ DataCheck Words Rx: 2226, Bit Err: 0 - 0x4443
+ DataCheck Words Rx: 2227, Bit Err: 0 - 0x4645
+ DataCheck Words Rx: 2228, Bit Err: 0 - 0x4847
+ DataCheck Words Rx: 2229, Bit Err: 0 - 0x4A49
+ DataCheck Words Rx: 2230, Bit Err: 0 - 0x4C4B
+ DataCheck Words Rx: 2231, Bit Err: 0 - 0x4E4D
+ DataCheck Words Rx: 2232, Bit Err: 0 - 0x504F
+ DataCheck Words Rx: 2233, Bit Err: 0 - 0x5251
+ DataCheck Words Rx: 2234, Bit Err: 0 - 0x5453
+ DataCheck Words Rx: 2235, Bit Err: 0 - 0x5655
+ DataCheck Words Rx: 2236, Bi

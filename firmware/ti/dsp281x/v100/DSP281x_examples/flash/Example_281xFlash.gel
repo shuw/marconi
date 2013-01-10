@@ -1,0 +1,29 @@
+menuitem "DSP281x Flash Example"
+
+hotmenu Build_Project()
+{
+  GEL_ProjectLoad("Example_281xFlash.pjt");
+  GEL_ProjectBuild("Example_281xFlash.pjt");
+}
+
+hotmenu Run_Example()
+{
+  GEL_ProjectLoad("Example_281xFlash.pjt");
+  GEL_Reset();
+}
+
+OnReset()
+{
+   GEL_SymbolLoad(".\\debug\\Example_281xFlash.out");
+   GEL_Go(main);
+   GEL_WatchReset();
+   GEL_WatchAdd("EvaTimer1InterruptCount,x");
+   GEL_WatchAdd("EvaTimer2InterruptCount,x");
+   GEL_WatchAdd("EvbTimer3InterruptCount,x");
+   GEL_WatchAdd("EvbTimer4InterruptCount,x");
+   GEL_WatchAdd("LoopCount,x");
+}
+
+
+
+

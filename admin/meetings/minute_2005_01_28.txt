@@ -1,0 +1,29 @@
+Minutes for January 28th, 2005
+==============================
+
+Present: Aaron, Stefan, Gang, Tom
+=======
+
+1. Reviewed schedule for ECE 391, need to submit the following by next week:
+- abstract
+- project agreement (done, but need to find that Bullock person)
+- Presentation slot signup
+
+2. Worked on abstract
+
+2a) Motivation of a Software Defined Transparent Modem
+
+i) Low cost;
+ii) For situations where wires cannot be present;
+iii) For situations where voice is not recommended
+  - for autonomy;
+  - for increased data accuracy;
+  - for increased data efficiency rate;
+iv) Other possible motivations (non commited yet) includes flexible choice of radios due to the software defined interface, and possible its potential to draw low power
+
+2b) The game plan is to have Gang to write up the rough draft by Sunday and have everybody edit it on Wednesday.
+
+Next Meeting
+============
+
+Wednesday February 2nd, 1:30 in ECE391 timeslot

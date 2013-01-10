@@ -1,0 +1,27 @@
+menuitem "DSP281x Ev PWM"
+
+hotmenu Load_and_Build_Project()
+{
+   GEL_ProjectLoad("Example_281xEvPwm.pjt");
+   GEL_ProjectBuild("Example_281xEvPwm.pjt");
+}
+
+hotmenu Load_Code()
+{
+   GEL_Reset();
+}
+
+OnReset()
+{
+   GEL_Load(".\\debug\\Example_281xEvPwm.out");
+}
+
+OnFileLoaded()
+{
+   GEL_Go(main);
+   GEL_WatchReset();
+}
+
+
+
+

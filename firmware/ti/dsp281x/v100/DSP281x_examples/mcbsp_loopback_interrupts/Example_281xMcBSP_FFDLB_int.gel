@@ -1,0 +1,29 @@
+menuitem "DSP281x McBSP Int"
+
+hotmenu Load_and_Build_Project()
+{
+   GEL_ProjectLoad("Example_281xMcBSP_FFDLB_int.pjt");
+   GEL_ProjectBuild("Example_281xMcBSP_FFDLB_int.pjt");
+}
+
+hotmenu Run_Code()
+{
+   GEL_Reset();
+}
+
+OnReset()
+{   
+   GEL_Load(".\\debug\\Example_281xMcBSP_FFDLB_int.out");
+}
+
+OnFileLoaded()
+{
+   GEL_Go(main);
+   GEL_WatchReset();
+   GEL_WatchAdd("sdata,x");
+   GEL_WatchAdd("rdata,x");
+   GEL_WatchAdd("rdata_point,x");      
+}
+
+
+

@@ -1,0 +1,72 @@
+Meeting Minutes for 09-15-2004 Online Meeting:
+
+Gang needs to get his internet up, quick!  j/k  :)
+
+A few things to do
+=============
+
+1. We need to get a list of potential advisors by the end of this
+term, so that they won't be taken by the time we find them.  Here are
+the "requirements":
+- Need to be either i) a UW faculty member (e.g. lab tech, prof,
+etc.); ii) in the industry with sufficient technical and engineering
+experience.
+- Would be nice that he/she is knowledgeable and is available for help
+- Be generous with marks :)
+- Generally a nice person to talk to
+
+2. Looking at radios for the modem
+- Site: http://www.radioworld.ca/frs/frs_cobra.php
+- We're considering the PR-145-2
+- Would be nice that the radios use UHF/FM with higher output power
+(1/2 W should be enough?)
+
+3. External Web Site (for demonstration of our work)
+- We'll probably use the skeleton in http://www.sgsolutions.ca/warg/ made by Tom
+
+4. CVS/Subversion Server
+- if CVS/subversion is found to be better than gmail, we'll use
+CVS/subversion for file posting instead.  Though, gmail will remain in
+place for discussions and what not.
+
+Discussions
+==========
+
+1. Audio Codec Specs
+- We looked at the specs for the audio codec, with 16 bits ADC and DAC and SPI
+- Spec is available here: http://focus.ti.com/lit/ds/symlink/tlv320aic11.pdf
+
+2. Practice Soldering Boards
+- We're thinking about buying some boards from California for
+soldering practice, which has some low pitch chip layouts with various
+packaging.
+- Each kit costs about $17 bucks USD, comes down to about $25 CAD
+- We think it's a good idea -- we'll probably go with it
+
+Annoucements
+===========
+
+1. Everybody get skype working.  Here's everybody's account:
+Aaron: aaronisian
+Stefan: sjanhunen
+Tom: tomwu2883
+
+2. Meeting this Saturday 1pm to 7pm.  Toronto bunch meeting place to
+be determined.
+
+Conclusion for This Meeting
+====================
+
+We should focus on these this week:
+1. The book: ch. 5, 6 minimum
+2. C code (see examples posted at gmail) and MATLAB
+3. Specs Skimming
+
+This Saturday we'll look at ...
+1. A bit about the book
+2. MATLAB codes
+3. Program Layout / Strategy perhaps?
+
+That's all I can remember, did I leave out something?
+
+Aaron

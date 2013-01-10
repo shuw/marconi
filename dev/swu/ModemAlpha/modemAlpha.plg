@@ -1,0 +1,65 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: modemAlpha - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\User\LOCALS~1\Temp\RSP8AA.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/modemAlpha.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\MARCONI\modemAlpha\Controller\DataController.c"
+"C:\MARCONI\modemAlpha\Decoder\Decoder.c"
+"C:\MARCONI\modemAlpha\Encoder\Encoder.c"
+"C:\MARCONI\modemAlpha\Tester\FileReader.c"
+"C:\MARCONI\modemAlpha\Tester\FileWriter.c"
+"C:\MARCONI\modemAlpha\main.c"
+"C:\MARCONI\modemAlpha\Controller\ModemInit.c"
+"C:\MARCONI\modemAlpha\Modulator\Modulator.c"
+"C:\MARCONI\modemAlpha\Tester\NoiseMediumA.c"
+"C:\MARCONI\modemAlpha\Util\PrintMsg.c"
+"C:\MARCONI\modemAlpha\Decoder\ViterbiDecoder.c"
+"C:\MARCONI\modemAlpha\Encoder\ViterbiEncoder.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\User\LOCALS~1\Temp\RSP8AA.tmp" 
+Creating temporary file "C:\DOCUME~1\User\LOCALS~1\Temp\RSP8AB.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/modemAlpha.pdb" /debug /machine:I386 /out:"Debug/modemAlpha.exe" /pdbtype:sept 
+.\Debug\DataController.obj
+.\Debug\Decoder.obj
+.\Debug\Encoder.obj
+.\Debug\FileReader.obj
+.\Debug\FileWriter.obj
+.\Debug\main.obj
+.\Debug\ModemInit.obj
+.\Debug\Modulator.obj
+.\Debug\NoiseMediumA.obj
+.\Debug\PrintMsg.obj
+.\Debug\ViterbiDecoder.obj
+.\Debug\ViterbiEncoder.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\User\LOCALS~1\Temp\RSP8AB.tmp"
+<h3>Output Window</h3>
+Compiling...
+DataController.c
+Decoder.c
+Encoder.c
+FileReader.c
+FileWriter.c
+main.c
+ModemInit.c
+Modulator.c
+NoiseMediumA.c
+PrintMsg.c
+ViterbiDecoder.c
+ViterbiEncoder.c
+Linking...
+
+
+
+<h3>Results</h3>
+modemAlpha.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

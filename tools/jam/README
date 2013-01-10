@@ -1,0 +1,7 @@
+To build jam for Win32 using VC++:
+
+1. Ensure VC++ is configured to work from command line (must be in your path, etc.).
+2. Set the environment variable MSVCNT to the base location of your VC++
+    installation (e.g. c:\progra~1\DevStudio\VC). No spaces should be present
+    in the path!
+2. Run 'nmake' in the ./source directory to build jam0.exe.

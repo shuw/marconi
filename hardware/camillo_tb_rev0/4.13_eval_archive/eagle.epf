@@ -1,0 +1,20 @@
+[Eagle]
+Version="04 09 20"
+Platform="Windows"
+Serial="6409076CF9-LSR-W-4CP"
+Globals="Globals"
+Desktop="Desktop"
+
+[Globals]
+AutoSaveProject=1
+UsedLibrary="camillo_parts.lbr"
+
+[Win_1]
+Type="Control Panel"
+Loc="46 97 1400 1010"
+State=2
+Number=0
+
+[Desktop]
+Screen="1600 1200"
+Window="Win_1"

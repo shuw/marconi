@@ -1,0 +1,187 @@
+# This JamFile defines how the various targets are compiled and linked to produce
+# executable images.
+#
+# In order to be able to build using this file, some environment variables are required:
+#   TI_HOME must be set to the root of your TI Code Composer Studio tree
+#       (C:\ti, for example)
+#   MSVCNT must be set to the installation path of Microsoft Visual C++
+#       (c:\progra~1\micros~2\VC98, for example)
+# No spaces may appear in these paths!
+#
+# Additionally, it is necessary that both the MSVC++ compiler (cl.exe) and the TI
+# compiler (cl2000.exe) are in your system path. The Jam executable (jam.exe) must 
+# also be in your system path.
+#
+# To build from a command prompt simply type 
+#
+#   jam -s PLATFORM=<HW|SIM> -s LOAD=<RAM|FLASH> [TARGET]
+#
+# where
+#
+#   PLATFORM    specifies whether to build DSP hardware/simulator targets (HW) or
+#                   PC-based simulation targets (SIM)
+#   LOAD        specifies whether to build images for loading into RAM or FLASH
+#                   (used only for the HW platform)
+#   TARGET      optionally specifies which target(s) to build or 'clean' to 
+#                   remove previously built files
+#
+# Note that the list of possible targets varies based upon platform!
+# The 'Main' rules below are separated into those targets available for
+# simulation realization and those available for harware realization.
+#
+# The syntax follows the pattern 
+#   Main <target name> : <source file(s)> ;
+#
+# To add additional targets, simply add an appropriate 'Main' rule that
+# references the source files necessary to build the target.
+
+include Jamrules ;
+
+
+SEARCH_SOURCE_COMMON = HwInterface Common Main DebugCmds
+	Modem 
+	Modem/Init
+	Modem/Decoder
+	Modem/Encoder
+	Modem/Modulator
+	Modem/Packeter
+	Modem/TxRxGates
+	Modem/Testbench
+	Modem/Controller
+	Modem/FSKOld
+    #Modem/FSK
+    Modem/Burst ;
+
+if $(PLATFORM) = SIM | $(PLATFORM) = HW_SIM
+{
+	SEARCH_SOURCE = $(SEARCH_SOURCE_COMMON)
+			AppSim/ModemSys	
+			AppSim/ModemSys/$(MODEM)
+			AppSim
+			AppSim/Util
+			;
+}
+else if $(PLATFORM) = HW
+{
+	SEARCH_SOURCE = $(SEARCH_SOURCE_COMMON)
+			AppHw/ModemSys 
+			AppHw/ModemSys/$(MODEM)
+			AppHw
+			AppHw/Chat
+			AppHw/Util
+			AppHw/DebugCmds
+			Modem/HardwareIO
+			;
+
+}
+
+LOCATE_TARGET = $(OBJDIR) ;
+
+UTIL = 
+	PrintMsg.c
+	TimeUtil.c 
+	Utils.c 
+    TargetFile.c ;
+
+
+# Source for hardware interface drivers
+HW_INTERFACE = 
+	DSP281x_Registers.c 
+	HwCodec.c 
+	HwGpio.c 
+	HwInit.c 
+	HwTimer.c 
+	HwUart.c 
+	HwReset.asm ;
+
+HW_DEBUG_COMPONENTS = 
+	DebugCmds.c
+	PipelineCmds.c
+	ControllerCmds.c
+	ErrorCheckCmds.c
+	DebugHandler.c
+	LEDStatus.c
+	ModemHandler.c 
+	PacketCmds.c
+	;
+
+
+MODEM = 
+	AWGN.c
+	DSP.c
+	DataController.c
+	Pipeline.c
+	ViterbiDecoder.c
+	ViterbiEncoder.c
+	Rescources.c
+	Modulator.c
+	Controllers.c
+	Pipelines.c
+	ErrorCheck.c
+	InitObjects.c
+	ModemInit.c
+	PacketCreater.c
+	PacketParser.c
+    #FSKCommon.c
+	FSKModulator.c
+	FSKDemodulator.c
+	DataGenerator.c
+	WordToByte.c
+    ByteToWord.c
+	TxGate.c
+	RxGate.c
+	DataCheck.c
+    BurstTx.c
+    BurstRx.c
+	;
+
+MODEM_SIM_ONLY = 
+	FileReader.c
+	FileWriter.c
+	RadioSim.c
+	TestDecoder.c
+	PassThrough.c
+	;
+
+MODEM_HW_ONLY =
+	SerialInput.c
+	SerialOutput.c
+	McBspInput.c
+	McBspOutput.c
+	AppChat.c
+    DSPAsm.asm
+	;
+
+if $(PLATFORM) = SIM | $(PLATFORM) = HW_SIM
+{
+    DEFINES += PLATFORM_SIM ;
+    LINKCMDFILE = HwInterface/LoadSIM.cmd ;
+
+    Main MarconiSim : 
+		#Main.c
+        TestMain.c
+		$(UTIL)
+		$(MODEM) 
+		$(MODEM_SIM_ONLY) 
+		;    
+    Main DSPTest : DSP.c DSPTest.c TargetFile.c ;
+}
+else if $(PLATFORM) = HW
+{
+    LINKCMDFILE = HwInterface/Load$(LOAD).cmd ;
+    DEFINES += PLATFORM_HW ;
+
+    #Main HwDSPTest$(LOAD) : DSPTest.c DSP.c DSPAsm.asm ; #$(HW_INTERFACE) PrintMsg.c ;
+
+    Main MarconiHw$(LOAD) : 
+		PrintMsg.c
+		Main.c
+		$(UTIL)
+		$(HW_INTERFACE) 
+		$(HW_DEBUG_COMPONENTS) 
+		$(MODEM)
+		$(MODEM_HW_ONLY)
+		;
+
+    #Main HwTest$(LOAD) : $(HW_INTERFACE) PrintMsg.c HwTestMain.c ;
+}

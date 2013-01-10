@@ -1,0 +1,34 @@
+menuitem "DSP281x SCI Autobaud"
+
+
+hotmenu Load_and_Build_Project()
+{
+   GEL_ProjectLoad("Example_281xSci_Autobaud.pjt");
+   GEL_ProjectBuild("Example_281xSci_Autobaud.pjt");
+}
+
+hotmenu Load_Code()
+{
+   GEL_Reset();
+}
+
+OnReset()
+{
+   GEL_Load(".\\debug\\Example_281xSci_Autobaud.out");
+}
+
+OnFileLoaded()
+{
+   GEL_Go(main);
+   GEL_WatchReset();
+   GEL_WatchAdd("BRRVal,x");
+   GEL_WatchAdd("ReceivedAChar,x");
+   GEL_WatchAdd("ReceivedBChar,x");
+   GEL_WatchAdd("ReceivedCount,x");   
+   GEL_WatchAdd("SciaRegs.SCIHBAUD,x");
+   GEL_WatchAdd("SciaRegs.SCILBAUD,x");
+   GEL_WatchAdd("ScibRegs.SCIHBAUD,x");
+   GEL_WatchAdd("ScibRegs.SCILBAUD,x");
+}
+
+

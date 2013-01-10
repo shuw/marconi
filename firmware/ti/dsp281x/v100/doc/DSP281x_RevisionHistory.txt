@@ -1,0 +1,304 @@
+DSP281x Header Files
+September 11, 2003
+
+This file provides an overview of the changes made between the V.58 and V1.00 release of
+the header files and example code.  
+
+For more details on the changes as well as migration tips, please refer to the 
+DSP281x_Readme_V100.pdf document.
+
+Revision History:
+
+Rev 1.00 
+
+    Changes made from the previous release (V.058 Alpha)
+
+    Filename Prefix Change:
+    ======================
+
+    In anticipaton of future 28x devices, all included file names were modified slightly 
+    to indicate that they are for the 281x devices.  The file name change is as follows:
+ 
+    DSP28_file.c was changed to DSP281x_file.c
+
+    This file uses the new name format when referring to the files. 
+
+
+    Directory Structure Changes:
+    ============================
+
+    The organization of the files has changed to better seperate the header files from 
+    the example source code.
+
+       Directory        Contents:
+    ------------------------------
+    DSP281x_headers       All of the files needed to use the Peripheral Structures
+
+    DSP281x_examples      Example projects that configure different peripherals
+ 
+    DSP281x_common        Common example source files that are shared between different
+                          example projects and/or may be useful for application development.  
+                     
+
+    Header File Changes - <base install>\DSP281x_headers\:
+    ====================================================
+
+     - New Files:
+       DSP281x_Headers_nonBIOS.cmd Linker command file for non-BIOS applications.  This
+                                   file only contains the memory allocation for the
+                                   peripheral structures used within these headerfiles.
+
+       DSP281x_Headers_BIOS.cmd    Linker command file for BIOS applications.  This
+                                   file only contains the memory allocation for the
+                                   peripheral structures used within these headerfiles.
+
+    -  DSP281x_Adc.h
+       * Separated the MAX_CONV bit field into two fields: MAX_CONV1 and MAX_CONV2     
+       * Added SEQ_OVRD bit to ADCCTRL1 for RevC and after versions of F2810/12
+
+    -  DSP281x_CpuTimers.h
+       * Corrected the definition of the TCR register
+
+    -  DSP281x_Device.h
+       Added External symbol declarations created by the linker cmd file. The DSP28 
+       examples will use these to relocate code from a LOAD location in either 
+       Flash or XINTF to a different RUN location in internal RAM.  These symbols are:
+
+                  extern Uint16 RamfuncsLoadStart;
+                  extern Uint16 RamfuncsLoadEnd;
+                  extern Uint16 RamfuncsRunStart;  
+
+       Refer to the Flash and run_from_xintf examples for their use
+
+       * Added float32 and float64 to the data typedefs
+       * Added #if DSP28_DATA_TYPES wrapper around the data typedefs to avoid conflicts
+         with other software releases that may define these types again (such as Flash API)
+       * Seperated out DSP281x example specific files and info.  This is now found in 
+         DSP281x_Common\include\DSP281x_Examples.h
+       * Changed F2812 -> DSP281x_F2812
+       * Changed F2810 -> DSP281x_F2810
+
+    -  DSP281x_ECan.h
+       Note: a number of these corrections were made to a limited released version
+       of the file (V.059).  These changes include updates from V.58 to V.59 as well
+       as changes to V1.00.
+       
+       * Added extern struct declarations for MOTO, MOTS and LAM eCAN register files
+       * Many bit field names and register names were corrected to match the 
+         reference guide. 
+
+         Bit name changes:
+         old       new        register
+         ---------------------------
+         SCM       SCB        CANMC
+         LNTM      TCC        CANMC
+         LNTC      MBCC       CANMC
+         TSEG2     TSEG2REG   CANBTC
+         TSEG1     TSEG1REG   CANBTC
+         SJW       SJWREG     CANBTC
+         BRP       BRPREG     CANBTC
+         ERM       reserved   CANBTC
+         MAIFO     MTOFO      CANGIFO
+         SIL       GIL        CANGIM
+         TCOIM     TCOM       CANGIM
+         MAIM      MTOM       CANGIM
+         TCOIF1    MTOF1      CANGIF1
+         MAIF1     MTOF1      CANGIF1
+         MSGID_L   EXTMSGID_L CANMSGID
+         MSGID_H   EXTMSGID_H CANMSGID 
+ 
+         TXIN, TXOUT, TXDIR in CANTIOC are now reserved.
+         RXIN, RXOUT, RXDIR in CANRIOC are now reserved.
+         MSGID_H was renamed and split into two parts:
+         EXTMSGID_H and STDMSGID.
+
+         Register name changes:
+         old       new
+         -------------------
+         CANLNT    CANTSC   (bit field definitions removed)
+         CANMID    CANMSGID
+         CANMCF    CANMSGCTRL
+         CANMDRL   CANMDL
+         CANMDRH   CANMDH
+
+       * MDL and MDH can now be accessed as .byte or .word
+
+
+    -  DPS281x_Ev.h
+       * CAPCON register for EVA renamed CAPCONA for consistency with other documentation. 
+       * EXTCON register for EVA renamed EXTCONA for consistency with other documentation.
+       * CAPFIFOA register for EVA renamed EXTCONA for consistency with other documentation.
+       * Corrected bit definitions for GPTCONA and GPTCONB registers
+       * T1CON and T2CON were using the same bit definitions.  Split this so the reserved
+         bits in T1CON would be correct
+       * T3CON and T4CON were using the same bit definitions.  Split this so the reserved
+         bits in T3CON would be correct
+       * Changed QEPIQEL to QEPIQUAL in EXTCONA/EXTCONB registers to match user documentation
+       * Added bits that are active only when EXTCONA.0 = 1 to the COMCONA and CONCOMB 
+         registers. Previously these were marked as reserved.
+       * Changed CAPQEPN to CAP12EN in the CAPCONA register
+       * Changed CAPQEPN to CAP45EN in the CAPCONB register
+
+    -  DSP281x_DevEmu.h
+       * As of Rev C silicon, DEVICEID is a 16-bit register 
+       * Commented out the DFT test registers.  These are not needed as of Rev C silicon.
+
+    -  DSP281x_Gpio.h
+       * Corrected union definitions that had BIT instead of bit
+
+    -  DPS281x_Mcbsp.h
+       * Changed the name of PCR1 register to PCR
+       * Fixed name of GSYNC bit (was incorrectly GYSNC)
+       * Changed bit 14 of SRGR2 to reserved
+       * RFULL bit in SPCR1 was mislabeled
+       * MFFTX register bits change to align with user's guide
+       * MFFRX register bits change to align with user's guide  
+
+    -  DSP281x_PieVect.h
+       * Changed USER0-USER11 to USER1-USER12 to match the CPU guide
+
+    -  DSP281x_Sci.h
+       * Added SCIRST bit field to SCIFFTX register
+       * Renamed RXERR to RXERROR to match documentation
+       * Renamed RXOVF_CLR to RXFFOVRCLR to match user document
+
+    -  DSP281x_Spi.h
+       * Corrected SPIFFTX bit definitions
+       * RESET renamed SPISWRESET to match documentation
+       * OVERRUN renamed OVERRUNINTENA to match documentation
+
+    -  DSP281x_SysCtrl.h
+       * Commented out the Emulation register initialization for RAM blocks.  This is 
+         no longer required as of rev C silicon. This change removed M0RAMDFT, M1RAMDFT,
+         L0RAMDFT, L1RAMDFT, and H0RAMDFT
+       * Increased the PLL lock loop to take into account the new requirement as of Rev C
+         silicon.
+       * Added bit definitions for the PLL Control Register (PLLCR)
+       * Added bit definitions for the low power mode control registers (LPMCR0 and LPMCR1)
+       * Removed bit definition for SCSR register.  This register should only be written to
+         using a 16-bit mask value.  Otherwise a read-modify-write operation will clear
+         the WDOVERRIDE bit. 
+
+
+    Common Example Code Changes - <base install>\DSP281x_common\:
+    ===========================================================
+
+     - New Files:
+       DSP281x_MemCopy.C           Memory copy from source to dest function
+       DSP281x_XintfBootReset.asm  Reset vector for booting from XINTF Zone 7
+       F2812_XintfBoot.cmd       Example linker command file for booting from XINTF Zone 7
+
+    -  DSP281x_Adc.c
+       * ADC_usDELAY changed from 5000L to 8000L
+
+    -  DSP281x_CSMPasswords.asm
+       * This file was previously blank.  Filled in the code for populating the CSM
+         password locations and the reserved CSM memory.
+
+    -  DSP281x_DefaultIsr.c
+       * Search and replaced PieCtrl. with PieCtrlRegs
+       * Added PIE Ack statements for XINT1 and XINT2 shell ISRs 
+       * Changed USER0-USER11 to USER1-USER12 to match the CPU guide
+
+    -  DSP281x_DefaultIsr.h
+       * Changed USER0-USER11 to USER1-USER12 to match the CPU guide
+
+    -  DSP281x_ECan.c
+       * Added various initialization routines
+
+    -  DSP281x_GlobalPrototypes.h
+       * Corrected the filename and title in the header
+
+    -  DSP281x_GlobalVariables.c
+       * Added struct declarations and pragma statements for MOTO, MOTS and 
+         LAM eCAN register files
+
+    -  DSP281x_PieCtrl.c
+       * Added ENPIE = 0 to the IntPieCtrl function
+       * Removed ENPIE = 1 from the IntPieCtrl function
+       * Created EnableInterrupts function
+
+    -  DSP281x_PieVect.c
+       * Changed USER0-USER11 to USER1-USER12 to match the CPU guide
+
+    -  DSP281x_SWPrioritizedDefaultIsr.c
+       * Corrected the handling of IER in the following shell interrupt routines:
+         INT13_ISR, INT14_ISR, XINT1_ISR, XINT2_ISR, DATALOG_ISR
+       * Aligned the version number of this file to match the rest (ie .01 -> .59)
+
+    -  DSP281x_SysCtrl.c
+       * Increased the PLL lock loop time per requirements as of Rev C silicon. 
+       * Counter for PLL lock loop made volatile so the optimizer won't remove the loop.
+       * Added comments regarding the PLL initialization sequence.
+       * Changed the PLL initialization to take into account the bit definitions for the PLLCR register
+       * Corrected bit field name for OTPWAIT (was OPTWAIT) in the FOTPWAIT register 
+       * Changed SCIENCLKA to SCIAENCLK and SCIENCLKB to SCIBENCLK to match documentation
+
+    -  DSP281x_usDelay.asm
+       * Updated comments to better describe the functions use. 
+       * This code is now part of the ramfuncs section - this section is used for code that
+         must run from internal RAM in order to work properly or for accuracy. 
+       * Placed this function in the ramfuncs section
+
+    -  EzDSP_RAM_lnk.cmd
+       * Added BEGIN section for boot to H0 code redirection branch instruction.
+       * Removed .sysmem, .const, and .bss sections.  These are only used for the small 
+         memory model.  All examples use the large model and large model is suggested
+         for customer use.
+       * Added .esysmem section 
+       * Added ECANA_LAM ECANA_MOTO and ECANA_MOTS memory blocks.  Also allocated the register files
+         to these memory blocks.
+       * Changed the ramfuncs section to load to RAM and run from RAM (it was type DSECT previously)
+       * Added Load_START/LOAD_END and RUN_START symbols for the ramfuncs section.
+         These symbols are used to relocate code as shown in the Flash and xintf examples.
+
+    -  F2810.cmd
+       F2812.cmd
+       EzDSP_RAM_lnk.cmd
+       * Split peripheral sections into a separate command file called DSP281x_Headers.cmd
+         This was done to make the header files more portable for use with other applications
+         such as BIOS.
+ 
+    -  F2810.cmd
+       F2812.cmd
+       * Removed .sysmem, .const, and .bss sections.  These are only used for the small 
+         memory model.  All examples use the large model and large model is suggested
+         for customer use.
+       * Added ECANA_LAM ECANA_MOTO and ECANA_MOTS memory blocks.  Also allocated the register files
+         to these memory blocks.
+       * Added Load_START/LOAD_END and RUN_START symbols for the ramfuncs section.
+         These symbols are used to relocate code as shown in the Flash and xintf examples.
+       * Added CSM_RSVD memory section in FLASHA - this region should be programmed with 
+         all 0x0000 when using the CSM
+
+
+     Changes made to example Projects - <base install>\DSP281x_examples\
+     ==================================================================
+
+     - All Examples:
+       * Rebuilt all examples for the new directory structure
+       * Updated all examples to use the new file name format (DSP281x)
+       * Added #include DSP281x_Examples.h 
+       * Cleanup of initliazation code.  Cleaned up many comments that were
+         left over from internal test code. 
+       * Added DSP281x_CodeStartBranch.asm to all projects that use boot to H0 mode
+       * Examples are now compiled with -w and -pdr switches enabled. 
+
+     - run_from_xintf
+       * changed the method for moving code from XINTF to internal RAM
+       * updated the linker command file and moved it to the common directory
+       * added a boot from XINTF reset vector and disabled the watchdog before
+         the C init routine.
+       * Added 8 NOP's after XINTF configuration to allow the writes to move through
+         the pipeline.
+
+     - flash
+       *changed the method for moving code from Flash to internal RAM
+
+     - sw_prioritized_interrupts: 
+       * Changed USER0-USER11 to USER1-USER12 to match the CPU guide
+       * Corrected a number of comments and changed the flow of each testcase to
+         make more sense.
+
+ 
+

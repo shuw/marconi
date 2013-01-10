@@ -1,0 +1,25 @@
+Minutes for Meeting on February 7, 2005
+
+Present: The usual four + Suresh
+
+1. Cleared out course of action with Suresh
+  - To Do: Write down brief descriptions on what we have accomplished thus far
+  - To Do: Write down a list of questions / info that we need from our client in Sri Lanka
+  - What Next: Suresh will talk to Engineers at his end and produce some rough specs for us
+  - Point from Suresh: final product will probably not be commercialized, but will be personal item
+
+2. Data Flow Decision
+  - Alternative 1: One packet in the data pipe at any given time
+  - Alterantive 2: Multiple packets in the data pipe, with each packet with its sync bits and length bits attached
+  - Analysis: Alternative 2 will be much faster than alternative 1, and it will not produce much more complications
+	if we are careful enough.
+  - Decision: alternative 2
+  - Details: Each packet will have its own sync and length bits, unencoded, tacked onto the encoded packet of data.
+	If there are sync bits detected in the encoded data (ie. false sync signal detected), the decoder in the 
+	receiving end will first check if the length field makes sense, and if yes, even if it may be a false packet, 
+	it will send it down the data pipe, which will eventually be filtered out by Gang's module because it'll be 
+	detected as garbage
+
+3. What's Next In Terms of Scheduling
+  - Stefan and Aaron will be working on bringing up the next few boards
+  - Gang and Aaron will spend a chunk of time sometime to get up and running with code development

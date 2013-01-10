@@ -1,0 +1,56 @@
+Minutes for meeting on November 27, 2004
+
+Present: Tom, Stefan, Gang, Aaron
+
+
+Code Conventions were discussed with the following outcome:
+
+    The Java coding convention will be used as the base set of coding conventions. The most notable
+    differences will be in the block bracketing style and naming conventions. 
+
+    Opening brackets will always be placed on a separate line following the statement that opens the
+    new block. Closing brackets will always be placed on a separate line following the last line in
+    the block.
+
+    The following naming convention will be used for variable, type, and function names:
+
+    - Function names begin with CapitalCase (prefix dependant on functionality, library, etc)
+    - Structs and consts are ALL_CAPS_WITH_UNDERSCORE
+    - All enums end with NUM_<ENUM_NAME> to mark end
+    - Variable names begin with lowerCase
+    - Global variables (extern) prefixed with 'global'
+    - Local and file scope (static) variables not prefixed
+
+The hardware driver interface was discussed and defined as follows:
+
+    void HwInit();
+
+    void HwUartInit(id, rate, parity, stop, rxFifo, txFifo);
+    void HwUartEnable(id);
+    void HwUartDisable(id);
+    void HwUartTx(id, data);
+
+        (where id is one of HW_UART_A, HW_UART_B)
+
+    void HwGpioSet(id, pattern)
+    void HwGpioClear(id, pattern)
+    WORD HwGpioRead(id)
+    void HwGpioSetOutputEnable(id, pattern)
+    void HwGpioClearOutputEnable(id, pattern)
+
+        (where id is one of HW_GPIO_A, HW_GPIO_B)
+
+    BOOL HwCodecInit(samplingRate, rxFifo, txFifo);
+    void HwCodecEnable();
+    void HwCodecDisable();
+
+    void HwWatchdogInit(milliseconds);
+    void HwWatchdogEnable();
+    void HwWatchdogDisable();
+    void HwWatchdogKick();
+
+    void HwTimerInit(id, milliseconds, timerFunctionPtr)
+    void HwTimerEnable(id)
+    void HwTimerDisable(id)
+
+        (where id is one of HW_TIMER_1, HW_TIMER_2, HW_TIMER_3)

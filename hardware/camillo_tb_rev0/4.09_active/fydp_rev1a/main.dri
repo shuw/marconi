@@ -1,0 +1,58 @@
+Drill Station Info File: D:/fydp_source/hardware/camillo_tb_rev0/4.09_active/main.dri
+
+ Date              : 15/11/2004 07:37:45p
+ Plotfile          : D:/fydp_source/hardware/camillo_tb_rev0/4.09_active/main.drd
+ Drills            : D:/fydp_source/hardware/camillo_tb_rev0/4.09_active/main.drl
+ Device            : Excellon drill station
+
+Parameter settings:
+
+ Tolerance Drill + :  2.50 %
+ Tolerance Drill - :  2.50 %
+ Rotate            : no
+ Mirror            : no
+ Optimize          : yes
+ Auto fit          : yes
+ OffsetX           : 0inch
+ OffsetY           : 0inch
+ Layers            : Drills Holes
+
+Drill File Info:
+
+ Data Mode         : Absolute
+ Units             : 1/1000 Inch
+ End Of Block      : CR/LF
+
+Drill Tolerances:
+
+ -- Requested --  -- Used Drill --
+
+ Size       used  Code  Size
+
+ 1.600mm       1  T09   63.000mil
+ 1.800mm       1  T11   71.000mil
+ 0.620mm       2  T03   24.000mil
+ 1.700mm       6  T10   67.000mil
+ 2.600mm       6  T12   102.000mil
+
+Drills used:
+
+ Code  Size       used
+
+ T01   15.000mil     1
+ T02   16.000mil   370
+ T03   24.000mil    91
+ T04   32.000mil    23
+ T05   36.000mil     6
+ T06   40.000mil   190
+ T07   44.000mil     4
+ T08   59.000mil     2
+ T09   63.000mil     1
+ T10   67.000mil     6
+ T11   71.000mil     1
+ T12   102.000mil     6
+ T13   130.000mil     4
+ T14   150.000mil     6
+
+Total number of drills: 711
+

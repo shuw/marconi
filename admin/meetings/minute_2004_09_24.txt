@@ -1,0 +1,64 @@
+Rough Timeline
+- Mid October - Two Tutorials – Next two meetings (Stefan and Tom)
+- Mid October - Rough Marketing Proposal and Market Research (Gang)
+- End of October - Board Design (Aaron and Stefan)
+- Beginning of November – Start talking to sponsors
+- Weekend before Christmas – Primary design goal completed
+- Some sort of text sent over some sort of radio
+
+Next Meeting
+- Software architecture planned
+- Tool tutorial
+
+Tasks to do
+
+Website
+- Tom, will use www.sgsolutions.ca domain
+
+Login to Blogger
+- Everyone
+
+Business proposal
+- Start on business proposal content - Gang
+- Product Legality
+
+Expense Records
+- Today, everyone paid Stefan $140
+- Stefan will keep track of all expenses
+
+Meeting Formats
+- Will come up with a standard meeting template: Tom
+- Status updates from each member
+- Division of labor: note taker, agenda reader
+
+Issues List
+- One issue list to be created for all outstanding tasks
+- To be updated by the note taker each week
+- To be reviewed and updated at general meeting
+
+Book
+- Finish reading the book – Everyone
+- Focus on Chapters 12 - 15
+- Try to understand the terms
+
+Formalized Landmarks
+- Documentation for FYDP (school administration)
+
+Tutorial on C
+- Tom and Stefan
+- Use the tools
+- Target tool tutorial date: next meeting (October 16th)
+- Target C tutorial date: (October 22th)
+
+Board Design Schedule
+
+Get the Board
+- Board Design (1 Week) – Stefan
+- Board Layout Tool (1 Week) – Aaron
+- Board Spin ( 1 – 2 Weeks)
+- Populating the Board, Soldering ( 2 Days) – Stefan
+- Target Completion Date: Last week of October
+- In case of fatal flaw: Respin time (2 Weeks) – Mid to Late November
+
+Test the Board
+- Testing the board (1 Week)

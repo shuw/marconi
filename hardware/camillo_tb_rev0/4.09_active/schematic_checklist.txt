@@ -1,0 +1,71 @@
+Checklist for Schematic
+
+Overall Notes:
+    - Done: FIX: Need to make sure there are NO unterminated inputs in reset state
+    - FIX: Double check on unused ADC input pins
+    - FIX: Review names for all parts/headers in schematic
+    - Done: Consider reverse voltage diode on power input
+
+Page 1 Notes
+    - TODO
+
+Page 2 Notes
+    - Checked all GPIO/SPI headers
+    - Bootmode, JTAG headers good
+    - Done: FIX: LED names should be A0-A7
+    - Check: CD74AC connections
+    - Passives, power, ground checked
+    - Done: FIX: Add proper names for SPI1, U$4
+
+Page 3 Notes
+
+    - Done: FIX: Add proper names for IC3, JP3, JP2
+    - Done: FIX: Remove the connections between 1, 4, 6 on UART_A, UART_B
+    - Done: FIX: Finalize the gound issue (protective should be same as signal?)
+    - MAX322, RS-232 Connections checked
+    - Passives, power, ground checked
+
+Page 4 Notes
+    - Done: FIX: add proper values for all decoupling caps
+    - Checked all resistor and cap packages
+    - Done: FIX: VDD3VFL must be driven by VDD_IO not VDD_CORE
+    - Done: FIX: place pullups on SPI RX, TX signals
+    - Checked all power/grounds
+    - Added extra decoupling caps for VDD_IO
+    - Checked oscillator connections
+    - Checked all DSP I/Os
+    - Verified ADC I/Os
+    - Checked resistor/cap values
+    - FIX: need to refine crystal load cap values
+    - Done: FIX: need to finalize McBsp series terminators
+
+Page 5 Notes
+    - Checked all resistor and cap packages
+    - Checked all resistor and cap values
+    - TESTSEL now connected to ground
+    - Added DSP_PLL_DIS header
+    - Checked all DSP I/Os
+    - Added DSP_XINT header and pullups
+    - Done: FIX: add pullups to SCITXDB, SCIRXDB
+
+Page 6 Notes
+    - Checked and fixed all resistor and cap packages
+    - Done: FIX: Add test pins for McBsp Tx and Rx
+    - Done: FIX: terminate unused opamps: DTXOP -> DTXIM, DTXOM -> DTXIP 
+    - Done: FIX: codec reset needs to go to header so can be decoupled from system reset
+    - Done: FIX: add in values for decoupling caps
+    - Done: FIX: add header pin for DCSI and pullup
+    - Done: FIX: add additional headers to decouple McBsp RX, TX lines from codec
+
+Page 7 Notes
+    - Added shunt DNP resistors across pots
+    - Done: FIX: add VMID to headers
+    - Added probes to audio inputs
+    - Done: FIX: Add series resistors to Codec inputs
+    - Done: FIX add optional mid-supply reference source?
+
+Page 8 Notes
+    - Added shunt DNP resistors across pots
+    - Added probes to audio outputs
+    - FIX: biasing of output opamps
+    - Done: FIX: add VMID to output headers (to terminate possible unused inputs)

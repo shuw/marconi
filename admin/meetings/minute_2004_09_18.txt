@@ -1,0 +1,87 @@
+Prep for Next Meeting (tomorrow)
+========================
+
+Have an idea which block you would like to work on:
+
+a) Timer/Interrupts
+
+b) DMA Codec
+
+c) RS-232 Driver
+
+d) SPI
+
+Annoucements
+===========
+
+1. Created a new label "Agenda".  It's more like "Proposed Meeting
+Agenda" if anything.  It's for discussing what should be on the next
+meeting's meeting agenda.  So the title should include the next
+meeting's proposed agenda, like the one I've posted one as example for
+tomorrow's meeting (Agenda: 09-25-2004).
+
+2. I got an idea on using blogspot to keep everybody updated on what's
+everybody been up to so that by the time we meet we have a good idea
+what's everybody been up to.  It's also good for documentation later.
+
+To Do List
+========
+
+1. Mess around with the following programs:
+   a) DSP Tool
+   b) MATLAB
+   c) C/C++ Review
+   d) MS Project
+
+2. Research into Radios specialized for digital signal communications
+
+3. Get list of potential supervisors / advisors
+
+4. Project Scheduling (MS Project)
+
+5. Business Proposal for TI JTAG Tool
+
+System Block Diagram
+=================
+
+I gotta pick up visio sometime.  Here is a basic breakdown:
+
+Transfer Side:
+- RS-232
+- Packet
+- Framing for encoding
+- Modulate for transfer
+- DAC
+- Radio
+
+Receive Side:
+- Radio
+- ADC
+- Demodulate for receive
+- Framing for decoding
+- Packet
+- RS-232
+
+Additions:
+- Timer/Interrupts
+- DMA Codec
+- RS-232 Driver
+- SPI
+
+Ch.1-6 has to do with modulation/demodulation
+Ch.7,12 has to do with framing
+
+Scheduling
+========
+
+1. People Gone
+   - Tom: Busy on October 2nd weekend
+   - Stefan: Busy on October 2, 9 weekends
+   - Gang: Busy on October 1 weekend
+
+2. Next Meeting: October 16th (tomorrow)
+
+3. Deadline for book: Beginning of October, before the meeting after
+October 16th
+
+4. Deadline for Project: Dec 17th

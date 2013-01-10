@@ -1,0 +1,22 @@
+Minutes for Mini Meeting on January 26, 2005
+
+Present: Aaron, Stefan (hence the "mini")
+
+1. Thoughts on Application and Demo of our Wireless Modem:
+
+- The "defined application" must satisfy all three of the following criteria:
+
+(1) Situations where wires between two devices is impossible/impractical (e.g. oil rigs);
+(2) Situations where voice cannot replace raw bits/bytes data transfer (e.g. files v.s. talking);
+(3) Situations where our wireless modem is much cheaper than other implementations (e.g. satellite link)
+
+2. Strategy to "Conform" with the "Proper Design Process"
+
+(1) Decide how we're going to demonstrate the usefulness of our modem in the FYDP demo day
+(e.g.1) Base station sending control signals to remote station in third floor of DC ie. lights, scroll text
+(e.g.2) Automatic data collection from remote station to base station
+
+(2) Write an "abstract" exacting the actual purpose of our modem on paper such that it's coherent with our intended demo
+
+(3) Develop technical specs that satisfies the functions described in the abstract
+(e.g.) power, bandwidth, delay time, etc 

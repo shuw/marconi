@@ -1,0 +1,196 @@
+//******************************************************************************
+//
+//              Copyright (C) 2005.  The Marconi Project
+//      All rights reserved.  No part of this program may be reproduced.
+//
+//     http://www.sgsolutions.ca/marconi
+//
+//==============================================================================
+//
+// USAGE:		Enter Description here
+//
+//
+//
+//******************************************************************************
+
+
+#define __PACKETRETRIEVER_C__
+
+
+//******************************************************************************
+//  I N C L U D E    F I L E S
+//******************************************************************************
+#include "All.h"
+#include <string.h>
+
+//******************************************************************************
+//  L O C A L    D E F I N I T I O N S
+//******************************************************************************
+typedef enum
+{
+	PACKET_PARSER_START_STATE,
+	PACKET_PARSER_RETRIEVE_DATA_STATE,
+	PACKET_PARSER_CHECKSUM_STATE,
+	NUM_PACKET_PARSER_STATES
+} PACKET_PARSER_STATE_ENUM;
+
+
+//******************************************************************************
+//  E X T E R N A L     F U N C T I O N    P R O T O T Y P E S
+//******************************************************************************
+
+
+//******************************************************************************
+//  S T A T I C    F U N C T I O N    P R O T O T Y P E S
+//******************************************************************************
+
+
+//******************************************************************************
+//  G L O B A L    V A R I A B L E S
+//******************************************************************************
+
+
+//******************************************************************************
+//  L O C A L    V A R I A B L E S
+//******************************************************************************
+
+
+//******************************************************************************
+//  C O D E
+//******************************************************************************
+
+//******************************************************************************
+//
+// FUNCTION:        Packet Parser Block Initialization
+//
+// USAGE:             Initializes Packet Parser Block Object Variables
+//				
+//
+// INPUT:              N/A
+//
+// OUTPUT:           N/A
+//
+// GLOBALS:         N/A
+//
+//******************************************************************************
+void PacketParserInit(BYTE *BlockInitStruct, BYTE *BlockObjStruct)
+{
+	PACKET_PARSER_OBJ_STRUCT *PacketParserObjStruct = (PACKET_PARSER_OBJ_STRUCT *)BlockObjStruct;
+
+	PacketParserObjStruct->packetsReceived = 0;
+	PacketParserObjStruct->packetState = PACKET_PARSER_START_STATE;
+	PacketParserObjStruct->packetDataPosition = 0;
+}
+
+//******************************************************************************
+//
+// FUNCTION:        Packet Parser Block
+//
+// USAGE:             Parses packets
+//				
+//
+// INPUT:              N/A
+//
+// OUTPUT:           N/A
+//
+// GLOBALS:         N/A
+//
+//******************************************************************************
+WORD PacketParser(WORD *inBuffer, WORD *inSize, WORD *outBuffer, WORD *outSize, BYTE *BlockObjStruct)
+{
+	PACKET_FORMAT *PacketStructure = (PACKET_FORMAT *)inBuffer;
+	PACKET_PARSER_OBJ_STRUCT *PacketParserObjStruct = (PACKET_PARSER_OBJ_STRUCT *)BlockObjStruct;
+
+	WORD inputLeftInBuffer = *inSize;
+	WORD inputWord;
+	WORD packetState = PacketParserObjStruct->packetState;
+	WORD outSizeUsed = 0;
+	
+	while (inputLeftInBuffer  > 0 && (outSizeUsed < *outSize) )
+	{
+		inputLeftInBuffer--;
+		inputWord = *inBuffer++;	
+		switch (packetState)
+		{
+			case (PACKET_PARSER_START_STATE):
+			{
+				//
+				// Sync Found
+				//
+				if (ReadBitsInWord(inputWord, PACKET_HEADER_SYNC_MASK, PACKET_HEADER_SYNC_POSITION)
+					== 0x000a)
+				{
+					PacketParserObjStruct->packetID = ReadBitsInWord(PacketStructure->header, PACKET_HEADER_ID_MASK, PACKET_HEADER_ID_POSITION);	
+					packetState = PACKET_PARSER_RETRIEVE_DATA_STATE;
+					PacketParserObjStruct->checkSum = inputWord;
+				}
+			}	
+			break;
+			case (PACKET_PARSER_RETRIEVE_DATA_STATE):
+			{
+				PacketParserObjStruct->packetData[PacketParserObjStruct->packetDataPosition++] = inputWord;
+				PacketParserObjStruct->checkSum += inputWord;
+
+				if (PacketParserObjStruct->packetDataPosition >= SIZE_OF_PACKET_DATA_IN_WORDS)
+				{
+					PacketParserObjStruct->packetDataPosition = 0;
+					packetState = PACKET_PARSER_CHECKSUM_STATE;
+				}
+			}
+			break;
+			case (PACKET_PARSER_CHECKSUM_STATE):
+			{
+				//Check checksum received with that calculated
+				if (PacketParserObjStruct->checkSum == inputWord)
+				{
+					memcpy(outBuffer, PacketParserObjStruct->packetData, SIZE_OF_PACKET_DATA_IN_WORDS  * sizeof(WORD));
+					outBuffer += SIZE_OF_PACKET_DATA_IN_WORDS;
+					outSizeUsed += SIZE_OF_PACKET_DATA_IN_WORDS;
+
+
+					PacketParserObjStruct->packetsReceived ++;
+
+					
+				}
+
+				packetState = PACKET_PARSER_START_STATE;
+			}
+			break;
+		}
+	}
+	
+
+	PacketParserObjStruct->packetState = packetState;
+	*inSize -= inputLeftInBuffer;
+	*outSize = outSizeUsed;
+	return 0;
+}
+
+//******************************************************************************
+//
+// FUNCTION:        N/A
+//
+// USAGE:             N/A
+//				
+//
+// INPUT:              N/A
+//
+// OUTPUT:           N/A
+//
+// GLOBALS:         N/A
+//
+//******************************************************************************
+WORD PacketParserReady(WORD *inputSize, WORD *outputSize, BYTE *BlockObjStruct)
+{
+	if (*inputSize >= PACKET_CREATOR_OUTPUT_SIZE && *outputSize >= SIZE_OF_PACKET_DATA_IN_WORDS)
+	{
+		*inputSize = PACKET_CREATOR_OUTPUT_SIZE;
+		*outputSize = SIZE_OF_PACKET_DATA_IN_WORDS;
+		return TRUE;
+	}
+	return FALSE; 
+		
+}
+
+
+/***********************************  END  ************************************/

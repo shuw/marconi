@@ -1,0 +1,28 @@
+menuitem "DSP281x GPIO Loopback"
+
+hotmenu Load_and_Build_Project()
+{
+   GEL_ProjectLoad("Example_281xGpioLoopback.pjt");
+   GEL_ProjectBuild("Example_281xGpioLoopback.pjt");
+}
+
+hotmenu Load_Code()
+{
+   GEL_Reset();
+}
+
+OnReset()
+{
+   GEL_Load(".\\debug\\Example_281xGpioLoopback.out");
+}
+
+OnFileLoaded()
+{
+   GEL_Go(main);
+   GEL_WatchReset();
+   GEL_WatchAdd("PASS_flag,x");
+}
+
+
+
+

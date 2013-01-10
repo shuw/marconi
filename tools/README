@@ -1,0 +1,4 @@
+For convenience, pre-built tools, utilities, and scripts and placed in the 'bin'
+subdirectory, under 'cygwin' or 'win32' depending upon which environment you prefer. 
+Place the appropriate subdirectory in your path to have command-line access to
+these tools from anywhere (required by the build process).

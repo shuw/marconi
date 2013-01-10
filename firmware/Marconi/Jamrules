@@ -1,0 +1,89 @@
+if $(PLATFORM) = HW | $(PLATFORM) = HW_SIM
+{
+    if $(PLATFORM) = HW
+    {
+        OBJDIR = Bin\\Hw ;
+    }
+    else # HW_SIM
+    {
+        OBJDIR = Bin\\HwSim ;
+    }
+
+    TIHDRS = $(TI_HOME)\\c2000\\cgtools\\include ;
+    TILIBS = $(TI_HOME)\\c2000\\cgtools\\lib ;
+    
+    rule FDefines { return -D$(<) ; }
+    rule FIncludes { return -i$(<) ; }
+
+    SUFEXE = .out ;
+    SUFOBJ = .obj ;
+
+    CC = cl2000 -c ;
+    CCFLAGS = -g -q -ml -v28 -s -o1 ;
+    DEFINES = _DEBUG LARGE_MODEL ;
+    HDRS = ; 
+    UNDEFFLAG = -u ;
+    UNDEFS = ;
+    OPTIM = ;
+
+    AS = cl2000 ;
+    ASFLAGS = -v28 ;
+
+    LINK = cl2000 -z ;
+    LINKFLAGS = ;
+    NEEDLIBS =  ;
+    LINKLIBS = rts2800_ml.lib ;
+
+    actions As
+    {
+        $(AS) -fr$(OBJDIR) $(ASFLAGS) $(>)
+    }
+
+    actions Cc
+    {
+        $(CC) -fr$(OBJDIR) -fs$(OBJDIR) -i$(TIHDRS) $(CCFLAGS) $(CCDEFS) $(CCHDRS) $(>)
+    }
+
+    actions Link
+    {
+        $(LINK) $(LINKFLAGS) $(LINKCMDFILE) -i$(TILIBS) -l$(LINKLIBS) -m$(<:S=.map) -o$(<) $(>)
+    }
+}
+else if $(PLATFORM) = SIM
+{
+    OBJDIR = Bin\\Sim ;
+
+    rule FDefines { return /D$(<) ; }
+    rule FIncludes { return /I$(<) ; }
+
+    SUFEXE = .exe ;
+    SUFOBJ = .obj ;
+
+    CC = cl /nologo ;
+    CCFLAGS = /W3 /ZI  ;
+    DEFINES = ;
+    HDRS = ;
+    UNDEFFLAG	?= "/u _" ;
+    UNDEFS = ;
+    OPTIM = ;
+
+    LINK = cl /nologo ;
+    LINKFLAGS = /MLd /ZI ;
+    NEEDLIBS = ;
+    LINKLIBS = ;
+
+    actions Cc
+    {
+        $(CC) /c /Fo$(<) $(CCFLAGS) $(CCDEFS) $(CCHDRS) $(>)
+    }
+
+    actions Link
+    {
+        $(LINK) $(LINKFLAGS) /Fe$(<) $(>) $(LINKLIBS) 
+    }
+
+}
+else
+{
+    Exit "Invalid platform" $(PLATFORM) "specified" ;
+}

@@ -1,0 +1,27 @@
+menuitem "DSP281x ADC SOC Example"
+
+hotmenu Load_and_Build_Project()
+{
+   GEL_ProjectLoad("Example_281xAdcSoc.pjt");
+   GEL_ProjectBuild("Example_281xAdcSoc.pjt");
+}
+
+hotmenu Run_Code()
+{
+   GEL_Reset();
+}
+
+OnReset()
+{
+   GEL_Load(".\\debug\\Example_281xAdcSoc.out");
+}
+
+OnFileLoaded()
+{
+   GEL_Go(main);
+   GEL_WatchReset();
+   GEL_WatchAdd("Voltage1,x");
+   GEL_WatchAdd("Voltage2,x");
+   GEL_WatchAdd("LoopCount,x");
+   GEL_WatchAdd("ConversionCount");
+}

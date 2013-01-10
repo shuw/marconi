@@ -1,0 +1,8 @@
+Notes for installing SDFlash:
+
+Unzip and run the self-extracting EXE file. Install into the TI code
+composer directory (which should be correct by default if you installed
+TI CCS into its default location).
+
+After extraction is complete, copy stdopts.cfg to the .../specdig/sdflash/bin
+directory to allow SDFlash to work with the serial port drivers.

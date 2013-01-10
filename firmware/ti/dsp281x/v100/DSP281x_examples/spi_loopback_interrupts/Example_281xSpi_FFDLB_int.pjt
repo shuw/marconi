@@ -1,0 +1,43 @@
+; Code Composer Project File, Version 2.0 (do not modify or remove this line)
+
+[Project Settings]
+ProjectName="DSP281x"
+ProjectDir="C:\tidcs\c28\DSP281x\v100\DSP281x_examples\spi_loopback_interrupts\"
+ProjectType=Executable
+CPUFamily=TMS320C28XX
+Tool="Compiler"
+Tool="DspBiosBuilder"
+Tool="Linker"
+Config="Debug"
+Config="Release"
+
+[Source Files]
+Source="..\..\DSP281x_common\source\DSP281x_CodeStartBranch.asm"
+Source="..\..\DSP281x_common\source\DSP281x_DefaultIsr.c"
+Source="..\..\DSP281x_common\source\DSP281x_PieCtrl.c"
+Source="..\..\DSP281x_common\source\DSP281x_PieVect.c"
+Source="..\..\DSP281x_common\source\DSP281x_Spi.c"
+Source="..\..\DSP281x_common\source\DSP281x_SysCtrl.c"
+Source="..\..\DSP281x_headers\source\DSP281x_GlobalVariableDefs.c"
+Source="Example_281xSpi_FFDLB_int.c"
+Source="..\..\DSP281x_common\cmd\F2812_EzDSP_RAM_lnk.cmd"
+Source="..\..\DSP281x_headers\cmd\DSP281x_Headers_nonBIOS.cmd"
+
+["Compiler" Settings: "Debug"]
+Options=-g -q -pdr -as -fr"C:\tidcs\c28\DSP281x\v100\DSP281x_examples\spi_loopback_interrupts\Debug" -fs"C:\tidcs\c28\DSP281x\v100\DSP281x_examples\spi_loopback_interrupts\Debug" -i"..\..\DSP281x_headers\include" -i"..\..\DSP281x_common\include" -d"_DEBUG" -d"LARGE_MODEL" -ml -mt -v28
+
+["Compiler" Settings: "Release"]
+Options=-q -o3 -fr"C:\tidcs\c28\DSP281x\v100\DSP281x_examples\spi_loopback_interrupts\Release" -d"LARGE_MODEL" -ml -v28
+
+["DspBiosBuilder" Settings: "Debug"]
+Options=-v28
+
+["DspBiosBuilder" Settings: "Release"]
+Options=-v28
+
+["Linker" Settings: "Debug"]
+Options=-q -c -m".\Debug\Example_281xSpi_FFDLB_int.map" -o".\Debug\Example_281xSpi_FFDLB_int.out" -stack0x400 -w -x -i"..\..\DSP281x_headers\include" -l"rts2800_ml.lib"
+
+["Linker" Settings: "Release"]
+Options=-q -c -o".\Release\Example_281xSpi_FFDLB_int.out" -x
+

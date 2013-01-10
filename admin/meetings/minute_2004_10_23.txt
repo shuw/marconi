@@ -1,0 +1,34 @@
+Minutes for Meeting on October 23, 2004
+
+In Attendance: Aaron, Gang, Stefan, Tom
+
+Admin:
+    - Everyone to get working with Subversion for all documents (read tutorial
+      if necessary)
+    - Tom and Stefan to prepare presentation of C and use of Code Composer tools
+      (two meetings from now)
+    - Long term goal for everyone to learn Matlab
+    - Blog not really necessary => use email, all documents, files placed in
+      Subversion (ie don't use email attachments!), all group messages will be
+      CC'd to uw.fydp@gmail.com
+
+Business
+    - Try to get advisor (Stefan to see if Sean Simmons at RIM is willing)
+    - Stefan to research admin requirements for project advisors
+    - We will take photos of everyone at next meeting => wear business casual
+    - Everyone to get a brief personal summary for Gang's business proposal (3rd
+      person past tense)
+    - Gang getting business cards made soon
+    - Require a good name for project (and business proposal): Research
+      famous names in radio/wireless/clasic communicators
+    - Gang requires list of tools/books/hw/sw costs for project
+    - Stefan to talk to Suresh about getting more specs for modem (note: we are
+      approaching project as 'independent')
+    - Consider getting a group bank account setup for sponsors
+
+Software/Firmware/Hardware Partitioning
+    - Aaron and Stefan to bring PCB's up and write low-level APIs to access
+      hardware blocks
+    - Tom and Gang to work on desinging debug/application layer to use firmware
+      APIs 
+    - Tom & Gang and Aaron & Stefan to work together to define API between layers

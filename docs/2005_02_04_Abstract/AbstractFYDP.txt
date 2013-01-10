@@ -1,0 +1,55 @@
+#
+# revisions:
+#
+#   $Log: ab.txt,v $
+#   Revision 1.1  2003/09/28 01:34:52  ece391
+#   Initial revision
+#
+#
+# Note the general structure and length of the abstract.
+#
+# Apply a sentence or two to communicate each of the following points,
+# preferably in the following order.
+#
+#   1. Summarize the general area or background of the problem.
+#   2. Specify the particular problem solved within the general area.
+#   3. Identify the device or system that embodies the problem's solution.
+#   4. Summarize the device's inputs, outputs and principle of operation.
+#   5. Summarize the theory underlying the solution and its implementation.
+#   6. Summarize the main advantages of the design over major alternatives.
+#
+
+## Reiteration of Gang's Version
+## Someone work on 5 and 6
+## Last guy who works on it uploads the good version onto the 391 site
+## (ie. over write whatever is up there now)
+## Whatever is up there now is just in case we forgot to upload it... :D
+Challenges arise when economical and realiable data transmission is required for 
+remote areas where wired data transmission is not possible.  Wireless data modems have 
+provided a wide variety of applications including autonomous data collection and 
+remote area emergency response, all of which requires expensive equipment and channel 
+licence fees.  This project develops an economical solution to wireless data 
+transmission by using public channel walkie talkies, with the flexibility of upgrading 
+to higher power radios.  The transmit module will get the user's input from a standard 
+serial interface and outputs the modulated message in the audio frequency through the 
+user's choice of radio.  The radio at the receiving end will then demodulate the message
+and output it to the modem's serial port.  The modem uses a Digital Signal Processor 
+(DSP) to [blab here].  [Advantages here] The highly intergrated design results in an 
+economical, flexible, and compact device that can be utilized in remote areas where 
+cost and flexibility of implementation is a major concern.
+
+## Gang's Version
+It is difficult to transmit and receive digital data in many remote areas
+where a wireless data infrastructure is not present.  Installing a satilite
+link would require thousands of dollars.  What would a project manager do if
+he just wanted to transmit kilo bytes of data and had a very limited budget?  
+The answer is the transparent wireless modem! It takes digital user input from a
+work station through RX 232 and processes it with an embedded Digital Signal
+Processor (DSP), which is then transformed into analog data by an 
+audio codec in the modem.  The modem utilizes existing voice radios
+and audio bandwidth to transmit and receive analog data, which is transformed 
+back into digital data on the receiving end by an audio codec and then processed 
+by a Digital Signal Processor (DSP) into a form that can be displayed and understood
+by the receiving user.  The highly intergrated design results in a cheap, flexible,
+easy to imstall (ie, plug and play), and compact device that can be utilized in parts
+of world where cost and ease of implementation is a major concern.

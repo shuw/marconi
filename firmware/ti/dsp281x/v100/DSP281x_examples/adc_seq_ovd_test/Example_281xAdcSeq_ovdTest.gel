@@ -1,0 +1,24 @@
+menuitem "DSP281x ADC Seq_ovd Test"
+
+hotmenu Load_and_Build_Project()
+{
+   GEL_ProjectLoad("Example_281xAdcSeq_ovdTest.pjt");
+   GEL_ProjectBuild("Example_281xAdcSeq_ovdTest.pjt");
+}
+
+hotmenu Load_Code()
+{
+   GEL_Reset();
+}
+
+OnReset()
+{
+   GEL_Load(".\\debug\\Example_281xAdcSeq_ovdTest.out");
+}
+
+OnFileLoaded()
+{
+   GEL_Go(main);
+   GEL_WatchReset();
+   GEL_WatchAdd("SampleTable,x");
+}
